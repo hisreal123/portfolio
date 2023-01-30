@@ -11,7 +11,7 @@ export default function Header() {
     const [toogle, setToogle] = useState(false)
     return (
         <>
-            <div className='relative w-full bg-[#D9D9D9] '>
+            <div className='relative w-full bg-[#D9D9D9] shadow-[#2C3CBF]-500 '>
                 <div className="relative md:w-4/5 md:mx-auto ">
                     <nav className='relative w-full h-[74px] '>
                         <ul className='flex flex-col relative h-full  justify-between md:flex-row md:justify-between md:min-w-screen '>
