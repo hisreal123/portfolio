@@ -43,7 +43,7 @@ export default function Header() {
 
                             {toogle ?
                                 (
-                                    <div className="z-10 bg-white  relative left  w-screen  md:hidden ">
+                                    <div className=" shadow-md z-10 bg-white  relative left  w-screen  md:hidden ">
                                         <li className=' w-full py-4 hover:bg-[#D9D9D9] px-3 font-medium ' onClick={() => { setToogle(!toogle) }}>
                                             <Link href='/About'>About</Link>
                                         </li>
