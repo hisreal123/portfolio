@@ -3,20 +3,20 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function page() {
-    const form = useRef();
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const form = useRef<HTMLFormElement | string>();
 
-
-    const SendEmail = (e) => {
-        e.preventDefault();
+    const SendEmail = (e:any) => {
+            e.preventDefault();
         emailjs.sendForm("service_u0ivftb", "template_6qfgyht", form.current, 'z3FWViMOWQXLBzr18')
             .then((result) => {
-                console.log(result.text);
-                alert('sent message !!!')
+            console.log(result.text);
+        alert('sent message !!!')
             }, (error) => {
-                console.log(error.text);
+            console.log(error.text);
             });
     };
-    return (
+        return (
         <div className='h-screen bg-[#f7f7f7] px-10 pt-10 lg:w-3/5 lg:mx-auto'>
             <h2 className='font-bold  text-xl  mb-10  lg:text-2xl'>Get in touch </h2>
             <div className="form">
@@ -30,5 +30,5 @@ export default function page() {
                 </form>
             </div>
         </div>
-    )
+        )
 }
