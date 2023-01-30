@@ -26,12 +26,12 @@ export default function Header() {
                                 </li>
                             </div>
 
-                            <div className=" hidden relative left  md:inline-flex md:space-x-5 items-center ">
+                            <div className="  hidden relative left  md:inline-flex md:space-x-5 items-center ">
                                 <li className='hover:bg-[#D9D9D9] px-2' >
                                     <Link href='/About'>About</Link>
                                 </li>
                                 <li className='hover:bg-[#D9D9D9] px-2' >
-                                    <Link href='/'>Contact</Link>
+                                    <Link href='/Contact'>Contact</Link>
                                 </li>
                                 <li className='hover:bg-[#D9D9D9] px-2' >
                                     <Link href='/'>Portfolio</Link>
@@ -43,13 +43,13 @@ export default function Header() {
 
                             {toogle ?
                                 (
-                                    <div className=" relative left  w-screen  md:hidden ">
+                                    <div className="bg-white  relative left  w-screen  md:hidden ">
 
                                         <li className=' w-full py-4 hover:bg-[#D9D9D9] px-3 font-medium ' onClick={() => { setToogle(!toogle) }}>
                                             <Link href='/About'>About</Link>
                                         </li>
                                         <li className='w-full py-4 hover:bg-[#D9D9D9] px-3 font-medium ' onClick={() => { setToogle(!toogle) }}>
-                                            <Link href='/'>Contact</Link>
+                                            <Link href='/Contact'>Contact</Link>
                                         </li>
                                         <li className='w-full py-4 hover:bg-[#D9D9D9] px-3 font-medium ' onClick={() => { setToogle(!toogle) }}>
                                             <Link href='/'>Portfolio</Link>
