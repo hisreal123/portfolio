@@ -34,7 +34,7 @@ export default function Header() {
                                     <Link href='/Contact'>Contact</Link>
                                 </li>
                                 <li className='hover:bg-[#D9D9D9] px-2' >
-                                    <Link href='/'>Portfolio</Link>
+                                    <Link href='/Portfolio'>Portfolio</Link>
                                 </li>
                                 <li className=' text-white py-1 px-2 bg-[#2C3CBF] hidden md:block md:px-4 hover:bg-[#1a2ba8] rounded-full '>
                                     <Link href='/'>HIREM ME </Link>
@@ -51,7 +51,7 @@ export default function Header() {
                                             <Link href='/Contact'>Contact</Link>
                                         </li>
                                         <li className='w-full py-4 hover:bg-[#D9D9D9] px-3 font-medium ' onClick={() => { setToogle(!toogle) }}>
-                                            <Link href='/'>Portfolio</Link>
+                                            <Link href='/Portfolio'>Portfolio</Link>
                                         </li>
 
                                         <li className='w-full text-white py-4 hover:bg-[#2C3CBF] hidden'>
