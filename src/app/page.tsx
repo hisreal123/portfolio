@@ -33,7 +33,7 @@ export default function Home() {
         <div className="desc"><p className='text-xs text-[#74868B] mb-10 md:mb-4 md:text-md md:w-[50%]'>I’m a Web & App FrontEnd devel­op­er from Lagos, Nigeria</p></div>
 
         <li className=' text-white mb-2 py-1 px-3 bg-[#2C3CBF] list-none text-sm rounded-full w-fit md:hidden '>
-          <Link href='/'>HIREM ME </Link>
+          <Link href='https://wa.me/08117372716'>HIREM ME </Link>
         </li>
 
         <div className="social flex items-center ">

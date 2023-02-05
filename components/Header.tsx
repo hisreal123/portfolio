@@ -37,7 +37,7 @@ export default function Header() {
                                     <Link href='/Portfolio'>Portfolio</Link>
                                 </li>
                                 <li className=' text-white py-1 px-2 bg-[#2C3CBF] hidden md:block md:px-4 hover:bg-[#1a2ba8] rounded-full '>
-                                    <Link href='/'>HIREM ME </Link>
+                                    <Link href='https://wa.me/08117372716'>HIREM ME </Link>
                                 </li>
                             </div>
 
@@ -55,7 +55,7 @@ export default function Header() {
                                         </li>
 
                                         <li className='w-full text-white py-4 hover:bg-[#2C3CBF] hidden'>
-                                            <Link href='/'>HIREM ME </Link>
+                                            <Link href='https://wa.me/08117372716'>HIREM ME </Link>
                                         </li>
                                     </div>
 
